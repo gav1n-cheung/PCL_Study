@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PCL_Study.dir/NoteOfDocuments/NoteOfUsage.cpp.o"
   "CMakeFiles/PCL_Study.dir/main.cpp.o"
   "PCL_Study"
   "PCL_Study.pdb"

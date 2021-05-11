@@ -142,6 +142,33 @@ PCL_Study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PCL_Study.dir/build.make CMakeFiles/PCL_Study.dir/build
 .PHONY : PCL_Study/fast
 
+NoteOfDocuments/NoteOfUsage.o: NoteOfDocuments/NoteOfUsage.cpp.o
+
+.PHONY : NoteOfDocuments/NoteOfUsage.o
+
+# target to build an object file
+NoteOfDocuments/NoteOfUsage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PCL_Study.dir/build.make CMakeFiles/PCL_Study.dir/NoteOfDocuments/NoteOfUsage.cpp.o
+.PHONY : NoteOfDocuments/NoteOfUsage.cpp.o
+
+NoteOfDocuments/NoteOfUsage.i: NoteOfDocuments/NoteOfUsage.cpp.i
+
+.PHONY : NoteOfDocuments/NoteOfUsage.i
+
+# target to preprocess a source file
+NoteOfDocuments/NoteOfUsage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PCL_Study.dir/build.make CMakeFiles/PCL_Study.dir/NoteOfDocuments/NoteOfUsage.cpp.i
+.PHONY : NoteOfDocuments/NoteOfUsage.cpp.i
+
+NoteOfDocuments/NoteOfUsage.s: NoteOfDocuments/NoteOfUsage.cpp.s
+
+.PHONY : NoteOfDocuments/NoteOfUsage.s
+
+# target to generate assembly for a file
+NoteOfDocuments/NoteOfUsage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PCL_Study.dir/build.make CMakeFiles/PCL_Study.dir/NoteOfDocuments/NoteOfUsage.cpp.s
+.PHONY : NoteOfDocuments/NoteOfUsage.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -178,6 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PCL_Study"
+	@echo "... NoteOfDocuments/NoteOfUsage.o"
+	@echo "... NoteOfDocuments/NoteOfUsage.i"
+	@echo "... NoteOfDocuments/NoteOfUsage.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

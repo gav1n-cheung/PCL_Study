@@ -1,0 +1,5 @@
+find_package(PCL REQUIRED)
+include_directories(${PCL_INCLUDE_DIRS})
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+target_link_libraries(YourProjectName ${PCL_COMMON_LIBRARIES} ${PCL_IO_LIBRARIES})
