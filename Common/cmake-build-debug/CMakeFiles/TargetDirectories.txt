@@ -1,3 +1,0 @@
-/home/cs18/Desktop/PCL_Study/PCL_Study/Common/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/cs18/Desktop/PCL_Study/PCL_Study/Common/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/cs18/Desktop/PCL_Study/PCL_Study/Common/cmake-build-debug/CMakeFiles/Common.dir
