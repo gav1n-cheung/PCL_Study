@@ -124,6 +124,7 @@ int main(int argc, char **argv)
 
     // Define R,G,B colors for the point cloud，为点云上色，原始点云设为白色
     pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> source_cloud_color_handler(source_cloud, 255, 255, 255);
+
     // We add the point cloud to the viewer and pass the color handler，我们将点云添加进可视化窗口，并且处理点云颜色
     viewer.addPointCloud(source_cloud, source_cloud_color_handler, "original_cloud");
 

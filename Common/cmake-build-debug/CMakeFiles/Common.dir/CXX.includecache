@@ -6,29 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/cs18/Desktop/PCL_Study/PCL_Study/Common/NoteOfDocuments/MatrixTrans.cpp
-iostream
--
-pcl/io/pcd_io.h
--
-pcl/io/ply_io.h
--
-pcl/point_cloud.h
--
-pcl/console/parse.h
--
-pcl/common/transforms.h
--
-pcl/visualization/pcl_visualizer.h
--
-
 /home/cs18/Desktop/PCL_Study/PCL_Study/Common/NoteOfDocuments/NoteOfCustomPointT.cpp
 NoteOfCustomPointT.h
 /home/cs18/Desktop/PCL_Study/PCL_Study/Common/NoteOfDocuments/NoteOfCustomPointT.h
 
 /home/cs18/Desktop/PCL_Study/PCL_Study/Common/NoteOfDocuments/NoteOfCustomPointT.h
-
-/home/cs18/Desktop/PCL_Study/PCL_Study/Common/NoteOfDocuments/NoteOfUsage.cpp
 
 /home/cs18/Desktop/PCL_Study/PCL_Study/Common/main.cpp
 iostream
