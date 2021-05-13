@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/NormalEstimationUsingIntegralImages.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/NormalEstimationUsingIntegralImages.cpp.o"
   "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/NormalsOfPointCloud.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/NormalsOfPointCloud.cpp.o"
+  "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/PFH.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/PFH.cpp.o"
+  "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/PointFeatureHistogramsDescriptors.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/PointFeatureHistogramsDescriptors.cpp.o"
   "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/main.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

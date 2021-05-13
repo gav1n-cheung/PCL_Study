@@ -65,21 +65,4 @@ flipNormalTowardsViewpoint (const PointT &point, float vp_x, float vp_y, float v
     如https://pcl.readthedocs.io/projects/tutorials/en/latest/normal_estimation.html#normal-estimation 公式2所示。
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  */
