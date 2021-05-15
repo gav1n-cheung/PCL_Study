@@ -3,7 +3,7 @@ project(Features)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Features main.cpp NoteOfDocuments/NormalsOfPointCloud.cpp NoteOfDocuments/NormalEstimationUsingIntegralImages.cpp NoteOfDocuments/PointFeatureHistogramsDescriptors.cpp NoteOfDocuments/PFH.cpp)
+add_executable(Features main.cpp NoteOfDocuments/NormalsOfPointCloud.cpp NoteOfDocuments/NormalEstimationUsingIntegralImages.cpp NoteOfDocuments/PointFeatureHistogramsDescriptors.cpp NoteOfDocuments/PFH.cpp NoteOfDocuments/FPFHOfPointCloud.cpp NoteOfDocuments/VFH.cpp)
 find_package(PCL 1.7 REQUIRED)
 include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})

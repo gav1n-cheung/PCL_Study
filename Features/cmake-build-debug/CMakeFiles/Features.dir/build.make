@@ -141,13 +141,41 @@ CMakeFiles/Features.dir/NoteOfDocuments/PFH.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Features.dir/NoteOfDocuments/PFH.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/PFH.cpp -o CMakeFiles/Features.dir/NoteOfDocuments/PFH.cpp.s
 
+CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.o: CMakeFiles/Features.dir/flags.make
+CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.o: ../NoteOfDocuments/FPFHOfPointCloud.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.o -c /home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/FPFHOfPointCloud.cpp
+
+CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/FPFHOfPointCloud.cpp > CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.i
+
+CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/FPFHOfPointCloud.cpp -o CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.s
+
+CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.o: CMakeFiles/Features.dir/flags.make
+CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.o: ../NoteOfDocuments/VFH.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.o -c /home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/VFH.cpp
+
+CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/VFH.cpp > CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.i
+
+CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/VFH.cpp -o CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.s
+
 # Object files for target Features
 Features_OBJECTS = \
 "CMakeFiles/Features.dir/main.cpp.o" \
 "CMakeFiles/Features.dir/NoteOfDocuments/NormalsOfPointCloud.cpp.o" \
 "CMakeFiles/Features.dir/NoteOfDocuments/NormalEstimationUsingIntegralImages.cpp.o" \
 "CMakeFiles/Features.dir/NoteOfDocuments/PointFeatureHistogramsDescriptors.cpp.o" \
-"CMakeFiles/Features.dir/NoteOfDocuments/PFH.cpp.o"
+"CMakeFiles/Features.dir/NoteOfDocuments/PFH.cpp.o" \
+"CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.o" \
+"CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.o"
 
 # External object files for target Features
 Features_EXTERNAL_OBJECTS =
@@ -157,6 +185,8 @@ Features: CMakeFiles/Features.dir/NoteOfDocuments/NormalsOfPointCloud.cpp.o
 Features: CMakeFiles/Features.dir/NoteOfDocuments/NormalEstimationUsingIntegralImages.cpp.o
 Features: CMakeFiles/Features.dir/NoteOfDocuments/PointFeatureHistogramsDescriptors.cpp.o
 Features: CMakeFiles/Features.dir/NoteOfDocuments/PFH.cpp.o
+Features: CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.o
+Features: CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.o
 Features: CMakeFiles/Features.dir/build.make
 Features: /usr/lib/x86_64-linux-gnu/libboost_system.so
 Features: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -430,7 +460,7 @@ Features: /usr/lib/x86_64-linux-gnu/libvtksys-6.3.so.6.3.0
 Features: /usr/lib/x86_64-linux-gnu/libproj.so
 Features: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.3.so.6.3.0
 Features: CMakeFiles/Features.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Features"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Features"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Features.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

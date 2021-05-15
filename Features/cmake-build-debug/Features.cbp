@@ -170,6 +170,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/FPFHOfPointCloud.cpp">
+			<Option target="Features"/>
+		</Unit>
 		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/NormalEstimationUsingIntegralImages.cpp">
 			<Option target="Features"/>
 		</Unit>
@@ -180,6 +183,9 @@
 			<Option target="Features"/>
 		</Unit>
 		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/PointFeatureHistogramsDescriptors.cpp">
+			<Option target="Features"/>
+		</Unit>
+		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/VFH.cpp">
 			<Option target="Features"/>
 		</Unit>
 		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/Features/main.cpp">

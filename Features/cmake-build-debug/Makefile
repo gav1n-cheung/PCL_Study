@@ -142,6 +142,33 @@ Features/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Features.dir/build.make CMakeFiles/Features.dir/build
 .PHONY : Features/fast
 
+NoteOfDocuments/FPFHOfPointCloud.o: NoteOfDocuments/FPFHOfPointCloud.cpp.o
+
+.PHONY : NoteOfDocuments/FPFHOfPointCloud.o
+
+# target to build an object file
+NoteOfDocuments/FPFHOfPointCloud.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Features.dir/build.make CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.o
+.PHONY : NoteOfDocuments/FPFHOfPointCloud.cpp.o
+
+NoteOfDocuments/FPFHOfPointCloud.i: NoteOfDocuments/FPFHOfPointCloud.cpp.i
+
+.PHONY : NoteOfDocuments/FPFHOfPointCloud.i
+
+# target to preprocess a source file
+NoteOfDocuments/FPFHOfPointCloud.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Features.dir/build.make CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.i
+.PHONY : NoteOfDocuments/FPFHOfPointCloud.cpp.i
+
+NoteOfDocuments/FPFHOfPointCloud.s: NoteOfDocuments/FPFHOfPointCloud.cpp.s
+
+.PHONY : NoteOfDocuments/FPFHOfPointCloud.s
+
+# target to generate assembly for a file
+NoteOfDocuments/FPFHOfPointCloud.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Features.dir/build.make CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.s
+.PHONY : NoteOfDocuments/FPFHOfPointCloud.cpp.s
+
 NoteOfDocuments/NormalEstimationUsingIntegralImages.o: NoteOfDocuments/NormalEstimationUsingIntegralImages.cpp.o
 
 .PHONY : NoteOfDocuments/NormalEstimationUsingIntegralImages.o
@@ -250,6 +277,33 @@ NoteOfDocuments/PointFeatureHistogramsDescriptors.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Features.dir/build.make CMakeFiles/Features.dir/NoteOfDocuments/PointFeatureHistogramsDescriptors.cpp.s
 .PHONY : NoteOfDocuments/PointFeatureHistogramsDescriptors.cpp.s
 
+NoteOfDocuments/VFH.o: NoteOfDocuments/VFH.cpp.o
+
+.PHONY : NoteOfDocuments/VFH.o
+
+# target to build an object file
+NoteOfDocuments/VFH.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Features.dir/build.make CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.o
+.PHONY : NoteOfDocuments/VFH.cpp.o
+
+NoteOfDocuments/VFH.i: NoteOfDocuments/VFH.cpp.i
+
+.PHONY : NoteOfDocuments/VFH.i
+
+# target to preprocess a source file
+NoteOfDocuments/VFH.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Features.dir/build.make CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.i
+.PHONY : NoteOfDocuments/VFH.cpp.i
+
+NoteOfDocuments/VFH.s: NoteOfDocuments/VFH.cpp.s
+
+.PHONY : NoteOfDocuments/VFH.s
+
+# target to generate assembly for a file
+NoteOfDocuments/VFH.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Features.dir/build.make CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.s
+.PHONY : NoteOfDocuments/VFH.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -286,6 +340,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Features"
+	@echo "... NoteOfDocuments/FPFHOfPointCloud.o"
+	@echo "... NoteOfDocuments/FPFHOfPointCloud.i"
+	@echo "... NoteOfDocuments/FPFHOfPointCloud.s"
 	@echo "... NoteOfDocuments/NormalEstimationUsingIntegralImages.o"
 	@echo "... NoteOfDocuments/NormalEstimationUsingIntegralImages.i"
 	@echo "... NoteOfDocuments/NormalEstimationUsingIntegralImages.s"
@@ -298,6 +355,9 @@ help:
 	@echo "... NoteOfDocuments/PointFeatureHistogramsDescriptors.o"
 	@echo "... NoteOfDocuments/PointFeatureHistogramsDescriptors.i"
 	@echo "... NoteOfDocuments/PointFeatureHistogramsDescriptors.s"
+	@echo "... NoteOfDocuments/VFH.o"
+	@echo "... NoteOfDocuments/VFH.i"
+	@echo "... NoteOfDocuments/VFH.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
