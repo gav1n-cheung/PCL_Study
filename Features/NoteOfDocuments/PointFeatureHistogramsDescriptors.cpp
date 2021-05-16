@@ -59,43 +59,118 @@ for (int i = 0; i < normals->size(); i++)
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 */
+#include <pcl/point_types.h>
+#include <pcl/features/fpfh.h>
+#include <pcl/point_types.h>
+#include <pcl/features/pfh.h>
+#include <pcl/io/io.h>
+#include <pcl/io/pcd_io.h>
+#include <pcl/io/ply_io.h>
+#include <pcl/features/integral_image_normal.h>
+#include <pcl/visualization/pcl_visualizer.h>
+#include <pcl/visualization/pcl_plotter.h>
+#include <iostream>
+#include <pcl/point_types.h>
+#include <pcl/features/normal_3d.h>
+#include <pcl/point_cloud.h>
+#include <pcl/common/centroid.h>
+#include <pcl/io/ply_io.h>
+#include <pcl/console/parse.h>
+#include <pcl/visualization/pcl_visualizer.h>
+
+int mainFun2() {
+
+pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
+   pcl::io::loadPLYFile("bunny_D01_L01.ply", *cloud);
+   pcl::NormalEstimation<pcl::PointXYZ,pcl::Normal> ne;//新建点云法线估计变量ne
+   ne.setInputCloud(cloud);//设定点云法线估计输入
+   pcl::search::KdTree<pcl::PointXYZ>::Ptr tree1(new pcl::search::KdTree<pcl::PointXYZ> ());//创建一个空的kdtree表示形式，并将其传递给法线估计对象，
+//它的内容将根据给定的输入数据集填充到对象内部（因为并没有其他可供搜索的表面）
+   ne.setSearchMethod(tree1);
+   pcl::PointCloud<pcl::Normal>::Ptr cloud_normals (new pcl::PointCloud<pcl::Normal>);//创建新的点云类型变量normals作为输出变量
+   ne.setRadiusSearch(0.03);//设定临近点搜索半径为0.03m
+   ne.compute(*cloud_normals);//计算发现的结果存储于输出中
+
+
+// Create the FPFH estimation class, and pass the input dataset+normals to it,创建一个FPFH的估计类，并设定输入的点云数据集和法线
+pcl::FPFHEstimation<pcl::PointXYZ, pcl::Normal, pcl::FPFHSignature33> fpfh;
+fpfh.setInputCloud (cloud);
+fpfh.setInputNormals (cloud_normals);
+// alternatively, if cloud is of tpe PointNormal, do fpfh.setInputNormals (cloud);
+//创建kd树用于搜索邻域
+pcl::search::KdTree<pcl::PointXYZ>::Ptr tree (new pcl::search::KdTree<pcl::PointXYZ>);
+fpfh.setSearchMethod (tree);
+
+// Output datasets，创建输出对象
+pcl::PointCloud<pcl::FPFHSignature33>::Ptr fpfhs (new pcl::PointCloud<pcl::FPFHSignature33> ());
+
+// Use all neighbors in a sphere of radius 5cm，设定搜索邻域范围为5cm
+// IMPORTANT: the radius used here has to be larger than the radius ued to estimate the surface normals!!!
+fpfh.setRadiusSearch (0.05);
+
+std::cout<<"start compute "<<endl;
+   for (int i = 0; i < cloud_normals->size(); i++)
+   {
+       if (!pcl::isFinite<pcl::Normal>((*cloud_normals)[i]))
+       {
+           PCL_WARN("normals[%d] is not finite\n", i);
+       }
+   }
+// Compute the features
+fpfh.compute (*fpfhs);
+   std::cout<<"end compute "<<endl;
+// fpfhs->size () should have the same size as the input cloud->size ()*
+   pcl::visualization::PCLVisualizer viewer("PCL Viewer");
+   viewer.setBackgroundColor (0.0, 0.0, 0.5);
+   viewer.addPointCloudNormals<pcl::PointXYZ,pcl::Normal>(cloud,cloud_normals);
+   pcl::visualization::PCLPlotter plotter;
+   plotter.addFeatureHistogram(*fpfhs,300);
+   plotter.plot();
+   while (!viewer.wasStopped ())
+   {
+       viewer.spinOnce ();
+   }
+   return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
