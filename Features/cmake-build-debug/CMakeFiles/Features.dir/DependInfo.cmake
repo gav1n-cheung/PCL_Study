@@ -5,12 +5,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/FPFHOfPointCloud.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/FPFHOfPointCloud.cpp.o"
+  "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/GASD.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/GASD.cpp.o"
   "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/MomentOfInertiaAnd**.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/MomentOfInertiaAnd**.cpp.o"
   "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/NARFOfRangeImage.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/NARFOfRangeImage.cpp.o"
   "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/NormalEstimationUsingIntegralImages.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/NormalEstimationUsingIntegralImages.cpp.o"
   "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/NormalsOfPointCloud.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/NormalsOfPointCloud.cpp.o"
   "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/PFH.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/PFH.cpp.o"
   "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/PointFeatureHistogramsDescriptors.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/PointFeatureHistogramsDescriptors.cpp.o"
+  "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/ROP.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/ROP.cpp.o"
   "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/VFH.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/NoteOfDocuments/VFH.cpp.o"
   "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/main.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/Features/cmake-build-debug/CMakeFiles/Features.dir/main.cpp.o"
   )
@@ -52,7 +54,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"
   "/usr/lib/x86_64-linux-gnu/openmpi/include"
   "/usr/include/python2.7"
-  "/usr/include/x86_64-linux-gnu"
   "/usr/include/hdf5/openmpi"
   "/usr/include/libxml2"
   "/usr/include/jsoncpp"

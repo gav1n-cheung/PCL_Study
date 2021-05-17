@@ -80,6 +80,12 @@ pcl/console/parse.h
 pcl/visualization/pcl_visualizer.h
 -
 
+/home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/ROP.cpp
+pcl/features/rops_estimation.h
+-
+pcl/io/pcd_io.h
+-
+
 /home/cs18/Desktop/PCL_Study/PCL_Study/Features/NoteOfDocuments/VFH.cpp
 pcl/point_types.h
 -
@@ -95,17 +101,11 @@ pcl/visualization/pcl_plotter.h
 -
 
 /home/cs18/Desktop/PCL_Study/PCL_Study/Features/main.cpp
-vector
--
-thread
--
-pcl/features/moment_of_inertia_estimation.h
+pcl/features/rops_estimation.h
 -
 pcl/io/pcd_io.h
 -
-pcl/point_types.h
--
-pcl/visualization/cloud_viewer.h
+pcl/visualization/pcl_visualizer.h
 -
 
 /usr/include/pcl-1.8/pcl/ModelCoefficients.h
@@ -468,16 +468,16 @@ cstddef
 pcl/features/integral_image_normal.h
 -
 
-/usr/include/pcl-1.8/pcl/features/impl/moment_of_inertia_estimation.hpp
-pcl/features/moment_of_inertia_estimation.h
--
-
 /usr/include/pcl-1.8/pcl/features/impl/normal_3d.hpp
 pcl/features/normal_3d.h
 -
 
 /usr/include/pcl-1.8/pcl/features/impl/pfh.hpp
 pcl/features/pfh.h
+-
+
+/usr/include/pcl-1.8/pcl/features/impl/rops_estimation.hpp
+pcl/features/rops_estimation.h
 -
 
 /usr/include/pcl-1.8/pcl/features/impl/vfh.hpp
@@ -508,18 +508,6 @@ pcl/features/integral_image2D.h
 pcl/features/impl/integral_image_normal.hpp
 -
 
-/usr/include/pcl-1.8/pcl/features/moment_of_inertia_estimation.h
-vector
--
-math.h
--
-pcl/features/feature.h
--
-pcl/PointIndices.h
--
-pcl/features/impl/moment_of_inertia_estimation.hpp
--
-
 /usr/include/pcl-1.8/pcl/features/normal_3d.h
 pcl/features/feature.h
 -
@@ -544,6 +532,16 @@ pcl/features/impl/pfh.hpp
 pcl/pcl_exports.h
 -
 Eigen/Core
+-
+
+/usr/include/pcl-1.8/pcl/features/rops_estimation.h
+pcl/PolygonMesh.h
+-
+pcl/features/feature.h
+-
+set
+-
+pcl/features/impl/rops_estimation.hpp
 -
 
 /usr/include/pcl-1.8/pcl/features/vfh.h
