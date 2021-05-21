@@ -65,31 +65,3 @@ Ms=8,ls=1和三线性直方图插值(INTERP_TRILINEAR)。这将产生一个512�
     descriptor[0].histogram[i];
   }
 }
-//估算输入点云的仅GASD形状描述符
-#include <pcl/point_types.h>
-#include <pcl/features/gasd.h>
-
-{
-  pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
-
-  ... read, pass in or create a point cloud ...
-
-  // Create the GASD estimation class, and pass the input dataset to it
-  pcl::GASDEstimation<pcl::PointXYZ, pcl::GASDSignature512> gasd;
-  gasd.setInputCloud (cloud);
-
-  // Output datasets
-  pcl::PointCloud<pcl::GASDSignature512> descriptor;
-
-  // Compute the descriptor
-  gasd.compute (descriptor);
-
-  // Get the alignment transform
-  Eigen::Matrix4f trans = gasd.getTransform (trans);
-
-  // Unpack histogram bins
-  for (std::size_t i = 0; i < std::size_t( descriptor[0].descriptorSize ()); ++i)
-  {
-    descriptor[0].histogram[i];
-  }
-}
