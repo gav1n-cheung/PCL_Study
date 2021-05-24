@@ -17,16 +17,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug"/>
 				<Option type="4"/>
@@ -74,6 +64,7 @@
 					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
 					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include/hdf5/openmpi"/>
 					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/include/jsoncpp"/>
@@ -93,7 +84,6 @@
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
@@ -140,6 +130,7 @@
 					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
 					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include/hdf5/openmpi"/>
 					<Add directory="/usr/include/libxml2"/>
 					<Add directory="/usr/include/jsoncpp"/>
@@ -159,7 +150,6 @@
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
@@ -169,7 +159,35 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/NoteOfFiltering/ExtractingIndices.cpp">
+			<Option target="Filtering"/>
+		</Unit>
+		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/NoteOfFiltering/ParametricModel.cpp">
+			<Option target="Filtering"/>
+		</Unit>
+		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/NoteOfFiltering/PassThroughFilter.cpp">
+			<Option target="Filtering"/>
+		</Unit>
+		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/NoteOfFiltering/RadiusOutlier.cpp">
+			<Option target="Filtering"/>
+		</Unit>
+		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/NoteOfFiltering/StatisticsOutlierRemovalFilter.cpp">
+			<Option target="Filtering"/>
+		</Unit>
+		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/NoteOfFiltering/VoxelGridFilter.cpp">
+			<Option target="Filtering"/>
+		</Unit>
 		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/Filtering/main.cpp">
 			<Option target="Filtering"/>
 		</Unit>
