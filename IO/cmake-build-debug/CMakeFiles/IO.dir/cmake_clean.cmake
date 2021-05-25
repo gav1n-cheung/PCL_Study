@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.o"
   "CMakeFiles/IO.dir/NoteOfIO/PCDFileFormat.cpp.o"
+  "CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.o"
+  "CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.o"
   "CMakeFiles/IO.dir/main.cpp.o"
   "IO"
   "IO.pdb"

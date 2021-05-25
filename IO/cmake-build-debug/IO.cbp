@@ -170,7 +170,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp">
+			<Option target="IO"/>
+		</Unit>
 		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/PCDFileFormat.cpp">
+			<Option target="IO"/>
+		</Unit>
+		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/ReadPCDFromFile.cpp">
+			<Option target="IO"/>
+		</Unit>
+		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/WritePointCloudToPCDFile.cpp">
 			<Option target="IO"/>
 		</Unit>
 		<Unit filename="/home/cs18/Desktop/PCL_Study/PCL_Study/IO/main.cpp">

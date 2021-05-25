@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/IO/cmake-build-debug/CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.o"
   "/home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/PCDFileFormat.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/IO/cmake-build-debug/CMakeFiles/IO.dir/NoteOfIO/PCDFileFormat.cpp.o"
+  "/home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/ReadPCDFromFile.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/IO/cmake-build-debug/CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.o"
+  "/home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/WritePointCloudToPCDFile.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/IO/cmake-build-debug/CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.o"
   "/home/cs18/Desktop/PCL_Study/PCL_Study/IO/main.cpp" "/home/cs18/Desktop/PCL_Study/PCL_Study/IO/cmake-build-debug/CMakeFiles/IO.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

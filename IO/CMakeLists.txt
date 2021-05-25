@@ -3,7 +3,7 @@ project(IO)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(IO main.cpp NoteOfIO/PCDFileFormat.cpp)
+add_executable(IO main.cpp NoteOfIO/PCDFileFormat.cpp NoteOfIO/ReadPCDFromFile.cpp NoteOfIO/WritePointCloudToPCDFile.cpp NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp)
 find_package(PCL REQUIRED)
 include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})

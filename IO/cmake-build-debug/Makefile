@@ -142,6 +142,33 @@ IO/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO.dir/build.make CMakeFiles/IO.dir/build
 .PHONY : IO/fast
 
+NoteOfIO/ConcatenatePointsOfTwoPointClouds.o: NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.o
+
+.PHONY : NoteOfIO/ConcatenatePointsOfTwoPointClouds.o
+
+# target to build an object file
+NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO.dir/build.make CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.o
+.PHONY : NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.o
+
+NoteOfIO/ConcatenatePointsOfTwoPointClouds.i: NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.i
+
+.PHONY : NoteOfIO/ConcatenatePointsOfTwoPointClouds.i
+
+# target to preprocess a source file
+NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO.dir/build.make CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.i
+.PHONY : NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.i
+
+NoteOfIO/ConcatenatePointsOfTwoPointClouds.s: NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.s
+
+.PHONY : NoteOfIO/ConcatenatePointsOfTwoPointClouds.s
+
+# target to generate assembly for a file
+NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO.dir/build.make CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.s
+.PHONY : NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.s
+
 NoteOfIO/PCDFileFormat.o: NoteOfIO/PCDFileFormat.cpp.o
 
 .PHONY : NoteOfIO/PCDFileFormat.o
@@ -168,6 +195,60 @@ NoteOfIO/PCDFileFormat.s: NoteOfIO/PCDFileFormat.cpp.s
 NoteOfIO/PCDFileFormat.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO.dir/build.make CMakeFiles/IO.dir/NoteOfIO/PCDFileFormat.cpp.s
 .PHONY : NoteOfIO/PCDFileFormat.cpp.s
+
+NoteOfIO/ReadPCDFromFile.o: NoteOfIO/ReadPCDFromFile.cpp.o
+
+.PHONY : NoteOfIO/ReadPCDFromFile.o
+
+# target to build an object file
+NoteOfIO/ReadPCDFromFile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO.dir/build.make CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.o
+.PHONY : NoteOfIO/ReadPCDFromFile.cpp.o
+
+NoteOfIO/ReadPCDFromFile.i: NoteOfIO/ReadPCDFromFile.cpp.i
+
+.PHONY : NoteOfIO/ReadPCDFromFile.i
+
+# target to preprocess a source file
+NoteOfIO/ReadPCDFromFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO.dir/build.make CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.i
+.PHONY : NoteOfIO/ReadPCDFromFile.cpp.i
+
+NoteOfIO/ReadPCDFromFile.s: NoteOfIO/ReadPCDFromFile.cpp.s
+
+.PHONY : NoteOfIO/ReadPCDFromFile.s
+
+# target to generate assembly for a file
+NoteOfIO/ReadPCDFromFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO.dir/build.make CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.s
+.PHONY : NoteOfIO/ReadPCDFromFile.cpp.s
+
+NoteOfIO/WritePointCloudToPCDFile.o: NoteOfIO/WritePointCloudToPCDFile.cpp.o
+
+.PHONY : NoteOfIO/WritePointCloudToPCDFile.o
+
+# target to build an object file
+NoteOfIO/WritePointCloudToPCDFile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO.dir/build.make CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.o
+.PHONY : NoteOfIO/WritePointCloudToPCDFile.cpp.o
+
+NoteOfIO/WritePointCloudToPCDFile.i: NoteOfIO/WritePointCloudToPCDFile.cpp.i
+
+.PHONY : NoteOfIO/WritePointCloudToPCDFile.i
+
+# target to preprocess a source file
+NoteOfIO/WritePointCloudToPCDFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO.dir/build.make CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.i
+.PHONY : NoteOfIO/WritePointCloudToPCDFile.cpp.i
+
+NoteOfIO/WritePointCloudToPCDFile.s: NoteOfIO/WritePointCloudToPCDFile.cpp.s
+
+.PHONY : NoteOfIO/WritePointCloudToPCDFile.s
+
+# target to generate assembly for a file
+NoteOfIO/WritePointCloudToPCDFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IO.dir/build.make CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.s
+.PHONY : NoteOfIO/WritePointCloudToPCDFile.cpp.s
 
 main.o: main.cpp.o
 
@@ -205,9 +286,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... IO"
+	@echo "... NoteOfIO/ConcatenatePointsOfTwoPointClouds.o"
+	@echo "... NoteOfIO/ConcatenatePointsOfTwoPointClouds.i"
+	@echo "... NoteOfIO/ConcatenatePointsOfTwoPointClouds.s"
 	@echo "... NoteOfIO/PCDFileFormat.o"
 	@echo "... NoteOfIO/PCDFileFormat.i"
 	@echo "... NoteOfIO/PCDFileFormat.s"
+	@echo "... NoteOfIO/ReadPCDFromFile.o"
+	@echo "... NoteOfIO/ReadPCDFromFile.i"
+	@echo "... NoteOfIO/ReadPCDFromFile.s"
+	@echo "... NoteOfIO/WritePointCloudToPCDFile.o"
+	@echo "... NoteOfIO/WritePointCloudToPCDFile.i"
+	@echo "... NoteOfIO/WritePointCloudToPCDFile.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

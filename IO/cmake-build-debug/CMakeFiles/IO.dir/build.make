@@ -102,16 +102,61 @@ CMakeFiles/IO.dir/NoteOfIO/PCDFileFormat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IO.dir/NoteOfIO/PCDFileFormat.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/PCDFileFormat.cpp -o CMakeFiles/IO.dir/NoteOfIO/PCDFileFormat.cpp.s
 
+CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.o: CMakeFiles/IO.dir/flags.make
+CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.o: ../NoteOfIO/ReadPCDFromFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cs18/Desktop/PCL_Study/PCL_Study/IO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.o -c /home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/ReadPCDFromFile.cpp
+
+CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/ReadPCDFromFile.cpp > CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.i
+
+CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/ReadPCDFromFile.cpp -o CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.s
+
+CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.o: CMakeFiles/IO.dir/flags.make
+CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.o: ../NoteOfIO/WritePointCloudToPCDFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cs18/Desktop/PCL_Study/PCL_Study/IO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.o -c /home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/WritePointCloudToPCDFile.cpp
+
+CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/WritePointCloudToPCDFile.cpp > CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.i
+
+CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/WritePointCloudToPCDFile.cpp -o CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.s
+
+CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.o: CMakeFiles/IO.dir/flags.make
+CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.o: ../NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cs18/Desktop/PCL_Study/PCL_Study/IO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.o -c /home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp
+
+CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp > CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.i
+
+CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp -o CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.s
+
 # Object files for target IO
 IO_OBJECTS = \
 "CMakeFiles/IO.dir/main.cpp.o" \
-"CMakeFiles/IO.dir/NoteOfIO/PCDFileFormat.cpp.o"
+"CMakeFiles/IO.dir/NoteOfIO/PCDFileFormat.cpp.o" \
+"CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.o" \
+"CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.o" \
+"CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.o"
 
 # External object files for target IO
 IO_EXTERNAL_OBJECTS =
 
 IO: CMakeFiles/IO.dir/main.cpp.o
 IO: CMakeFiles/IO.dir/NoteOfIO/PCDFileFormat.cpp.o
+IO: CMakeFiles/IO.dir/NoteOfIO/ReadPCDFromFile.cpp.o
+IO: CMakeFiles/IO.dir/NoteOfIO/WritePointCloudToPCDFile.cpp.o
+IO: CMakeFiles/IO.dir/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp.o
 IO: CMakeFiles/IO.dir/build.make
 IO: /usr/lib/x86_64-linux-gnu/libboost_system.so
 IO: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -385,7 +430,7 @@ IO: /usr/lib/x86_64-linux-gnu/libvtksys-6.3.so.6.3.0
 IO: /usr/lib/x86_64-linux-gnu/libproj.so
 IO: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.3.so.6.3.0
 IO: CMakeFiles/IO.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cs18/Desktop/PCL_Study/PCL_Study/IO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable IO"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cs18/Desktop/PCL_Study/PCL_Study/IO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable IO"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IO.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
