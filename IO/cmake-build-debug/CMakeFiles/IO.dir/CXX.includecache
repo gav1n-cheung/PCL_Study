@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/home/cs18/Desktop/PCL_Study/PCL_Study/IO/NoteOfIO/ConcatenatePointsOfTwoPointClouds.cpp
+iostream
+-
+pcl/io/pcd_io.h
+-
+pcl/point_types.h
+-
+
 /home/cs18/Desktop/PCL_Study/PCL_Study/IO/main.cpp
+iostream
+-
+pcl/io/pcd_io.h
+-
+pcl/point_types.h
+-
 iostream
 -
 pcl/io/pcd_io.h
