@@ -1,0 +1,100 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/cs18/Desktop/PCL_Study/PCL_Study/RangeImage/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53cfe/fast && /usr/bin/make  -f CMakeFiles/cmTC_53cfe.dir/build.make CMakeFiles/cmTC_53cfe.dir/build
+make[1]: 进入目录“/home/cs18/Desktop/PCL_Study/PCL_Study/RangeImage/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_53cfe.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_53cfe.dir/src.c.o -c /home/cs18/Desktop/PCL_Study/PCL_Study/RangeImage/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_53cfe
+/snap/clion/151/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53cfe.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_53cfe.dir/src.c.o -o cmTC_53cfe 
+CMakeFiles/cmTC_53cfe.dir/src.c.o：在函数‘main’中：
+src.c:(.text+0x3e)：对‘pthread_create’未定义的引用
+src.c:(.text+0x4a)：对‘pthread_detach’未定义的引用
+src.c:(.text+0x56)：对‘pthread_cancel’未定义的引用
+src.c:(.text+0x67)：对‘pthread_join’未定义的引用
+src.c:(.text+0x7b)：对‘pthread_atfork’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_53cfe.dir/build.make:105: recipe for target 'cmTC_53cfe' failed
+make[1]: *** [cmTC_53cfe] Error 1
+make[1]: 离开目录“/home/cs18/Desktop/PCL_Study/PCL_Study/RangeImage/cmake-build-debug/CMakeFiles/CMakeTmp”
+Makefile:140: recipe for target 'cmTC_53cfe/fast' failed
+make: *** [cmTC_53cfe/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/cs18/Desktop/PCL_Study/PCL_Study/RangeImage/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c1036/fast && /usr/bin/make  -f CMakeFiles/cmTC_c1036.dir/build.make CMakeFiles/cmTC_c1036.dir/build
+make[1]: 进入目录“/home/cs18/Desktop/PCL_Study/PCL_Study/RangeImage/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c1036.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_c1036.dir/CheckFunctionExists.c.o -c /snap/clion/151/bin/cmake/linux/share/cmake-3.19/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c1036
+/snap/clion/151/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1036.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_c1036.dir/CheckFunctionExists.c.o -o cmTC_c1036  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c1036.dir/build.make:105: recipe for target 'cmTC_c1036' failed
+make[1]: *** [cmTC_c1036] Error 1
+make[1]: 离开目录“/home/cs18/Desktop/PCL_Study/PCL_Study/RangeImage/cmake-build-debug/CMakeFiles/CMakeTmp”
+Makefile:140: recipe for target 'cmTC_c1036/fast' failed
+make: *** [cmTC_c1036/fast] Error 2
+
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/cs18/Desktop/PCL_Study/PCL_Study/RangeImage/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11630/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11630.dir/build.make CMakeFiles/cmTC_11630.dir/build
+make[1]: 进入目录“/home/cs18/Desktop/PCL_Study/PCL_Study/RangeImage/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_11630.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_11630.dir/CheckSymbolExists.c.o   -c /home/cs18/Desktop/PCL_Study/PCL_Study/RangeImage/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_11630
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11630.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_11630.dir/CheckSymbolExists.c.o  -o cmTC_11630 
+CMakeFiles/cmTC_11630.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_11630.dir/build.make:97: recipe for target 'cmTC_11630' failed
+make[1]: *** [cmTC_11630] Error 1
+make[1]: 离开目录“/home/cs18/Desktop/PCL_Study/PCL_Study/RangeImage/cmake-build-debug/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_11630/fast' failed
+make: *** [cmTC_11630/fast] Error 2
+
+File /home/cs18/Desktop/PCL_Study/PCL_Study/RangeImage/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
