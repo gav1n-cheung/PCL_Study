@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfIncremental.cpp.o"
+  "CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.o"
   "CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfPCLRegistrationAPI.cpp.o"
   "CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfUseIterativeClosesetPoint.cpp.o"
   "CMakeFiles/Registration.dir/main.cpp.o"

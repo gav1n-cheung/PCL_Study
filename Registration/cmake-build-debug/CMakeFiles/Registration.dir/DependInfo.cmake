@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cheung/Desktop/Program/PCL/PCL_Study/Registration/NoteOfRegistration/NoteOfIncremental.cpp" "/home/cheung/Desktop/Program/PCL/PCL_Study/Registration/cmake-build-debug/CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfIncremental.cpp.o"
+  "/home/cheung/Desktop/Program/PCL/PCL_Study/Registration/NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp" "/home/cheung/Desktop/Program/PCL/PCL_Study/Registration/cmake-build-debug/CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.o"
   "/home/cheung/Desktop/Program/PCL/PCL_Study/Registration/NoteOfRegistration/NoteOfPCLRegistrationAPI.cpp" "/home/cheung/Desktop/Program/PCL/PCL_Study/Registration/cmake-build-debug/CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfPCLRegistrationAPI.cpp.o"
   "/home/cheung/Desktop/Program/PCL/PCL_Study/Registration/NoteOfRegistration/NoteOfUseIterativeClosesetPoint.cpp" "/home/cheung/Desktop/Program/PCL/PCL_Study/Registration/cmake-build-debug/CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfUseIterativeClosesetPoint.cpp.o"
   "/home/cheung/Desktop/Program/PCL/PCL_Study/Registration/main.cpp" "/home/cheung/Desktop/Program/PCL/PCL_Study/Registration/cmake-build-debug/CMakeFiles/Registration.dir/main.cpp.o"

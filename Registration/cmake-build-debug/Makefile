@@ -169,6 +169,33 @@ NoteOfRegistration/NoteOfIncremental.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Registration.dir/build.make CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfIncremental.cpp.s
 .PHONY : NoteOfRegistration/NoteOfIncremental.cpp.s
 
+NoteOfRegistration/NoteOfInteractiveClosestPoint.o: NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.o
+
+.PHONY : NoteOfRegistration/NoteOfInteractiveClosestPoint.o
+
+# target to build an object file
+NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Registration.dir/build.make CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.o
+.PHONY : NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.o
+
+NoteOfRegistration/NoteOfInteractiveClosestPoint.i: NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.i
+
+.PHONY : NoteOfRegistration/NoteOfInteractiveClosestPoint.i
+
+# target to preprocess a source file
+NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Registration.dir/build.make CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.i
+.PHONY : NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.i
+
+NoteOfRegistration/NoteOfInteractiveClosestPoint.s: NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.s
+
+.PHONY : NoteOfRegistration/NoteOfInteractiveClosestPoint.s
+
+# target to generate assembly for a file
+NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Registration.dir/build.make CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.s
+.PHONY : NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.s
+
 NoteOfRegistration/NoteOfPCLRegistrationAPI.o: NoteOfRegistration/NoteOfPCLRegistrationAPI.cpp.o
 
 .PHONY : NoteOfRegistration/NoteOfPCLRegistrationAPI.o
@@ -262,6 +289,9 @@ help:
 	@echo "... NoteOfRegistration/NoteOfIncremental.o"
 	@echo "... NoteOfRegistration/NoteOfIncremental.i"
 	@echo "... NoteOfRegistration/NoteOfIncremental.s"
+	@echo "... NoteOfRegistration/NoteOfInteractiveClosestPoint.o"
+	@echo "... NoteOfRegistration/NoteOfInteractiveClosestPoint.i"
+	@echo "... NoteOfRegistration/NoteOfInteractiveClosestPoint.s"
 	@echo "... NoteOfRegistration/NoteOfPCLRegistrationAPI.o"
 	@echo "... NoteOfRegistration/NoteOfPCLRegistrationAPI.i"
 	@echo "... NoteOfRegistration/NoteOfPCLRegistrationAPI.s"
