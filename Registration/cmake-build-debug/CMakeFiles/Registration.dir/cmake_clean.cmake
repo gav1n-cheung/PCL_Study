@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.o"
   "CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfIncremental.cpp.o"
   "CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfInteractiveClosestPoint.cpp.o"
   "CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfPCLRegistrationAPI.cpp.o"

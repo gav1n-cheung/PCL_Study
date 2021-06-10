@@ -106,6 +106,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Registration/NoteOfRegistration/NoteOfAlignmentPrerejective.cpp">
+			<Option target="Registration"/>
+		</Unit>
 		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Registration/NoteOfRegistration/NoteOfIncremental.cpp">
 			<Option target="Registration"/>
 		</Unit>

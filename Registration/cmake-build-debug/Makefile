@@ -142,6 +142,33 @@ Registration/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Registration.dir/build.make CMakeFiles/Registration.dir/build
 .PHONY : Registration/fast
 
+NoteOfRegistration/NoteOfAlignmentPrerejective.o: NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.o
+
+.PHONY : NoteOfRegistration/NoteOfAlignmentPrerejective.o
+
+# target to build an object file
+NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Registration.dir/build.make CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.o
+.PHONY : NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.o
+
+NoteOfRegistration/NoteOfAlignmentPrerejective.i: NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.i
+
+.PHONY : NoteOfRegistration/NoteOfAlignmentPrerejective.i
+
+# target to preprocess a source file
+NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Registration.dir/build.make CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.i
+.PHONY : NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.i
+
+NoteOfRegistration/NoteOfAlignmentPrerejective.s: NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.s
+
+.PHONY : NoteOfRegistration/NoteOfAlignmentPrerejective.s
+
+# target to generate assembly for a file
+NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Registration.dir/build.make CMakeFiles/Registration.dir/NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.s
+.PHONY : NoteOfRegistration/NoteOfAlignmentPrerejective.cpp.s
+
 NoteOfRegistration/NoteOfIncremental.o: NoteOfRegistration/NoteOfIncremental.cpp.o
 
 .PHONY : NoteOfRegistration/NoteOfIncremental.o
@@ -286,6 +313,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Registration"
+	@echo "... NoteOfRegistration/NoteOfAlignmentPrerejective.o"
+	@echo "... NoteOfRegistration/NoteOfAlignmentPrerejective.i"
+	@echo "... NoteOfRegistration/NoteOfAlignmentPrerejective.s"
 	@echo "... NoteOfRegistration/NoteOfIncremental.o"
 	@echo "... NoteOfRegistration/NoteOfIncremental.i"
 	@echo "... NoteOfRegistration/NoteOfIncremental.s"
