@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfCylinderSeg.cpp
+

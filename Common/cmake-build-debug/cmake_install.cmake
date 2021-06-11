@@ -1,4 +1,4 @@
-# Install script for directory: /home/cs18/Desktop/PCL_Study/PCL_Study/Common
+# Install script for directory: /home/cheung/Desktop/Program/PCL/PCL_Study/Common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cs18/Desktop/PCL_Study/PCL_Study/Common/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cheung/Desktop/Program/PCL/PCL_Study/Common/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
