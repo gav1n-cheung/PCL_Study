@@ -6,7 +6,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfClusterExtraction.cpp" "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfClusterExtraction.cpp.o"
   "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfCylinderSeg.cpp" "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfCylinderSeg.cpp.o"
+  "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfMinCutSeg.cpp" "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfMinCutSeg.cpp.o"
   "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfPlanSeg.cpp" "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfPlanSeg.cpp.o"
+  "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfRegionGrowing.cpp" "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfRegionGrowing.cpp.o"
+  "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp" "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.o"
   "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/main.cpp" "/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles/Segmentation.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -196,6 +196,33 @@ NoteOfSegmentation/NoteOfCylinderSeg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfCylinderSeg.cpp.s
 .PHONY : NoteOfSegmentation/NoteOfCylinderSeg.cpp.s
 
+NoteOfSegmentation/NoteOfMinCutSeg.o: NoteOfSegmentation/NoteOfMinCutSeg.cpp.o
+
+.PHONY : NoteOfSegmentation/NoteOfMinCutSeg.o
+
+# target to build an object file
+NoteOfSegmentation/NoteOfMinCutSeg.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfMinCutSeg.cpp.o
+.PHONY : NoteOfSegmentation/NoteOfMinCutSeg.cpp.o
+
+NoteOfSegmentation/NoteOfMinCutSeg.i: NoteOfSegmentation/NoteOfMinCutSeg.cpp.i
+
+.PHONY : NoteOfSegmentation/NoteOfMinCutSeg.i
+
+# target to preprocess a source file
+NoteOfSegmentation/NoteOfMinCutSeg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfMinCutSeg.cpp.i
+.PHONY : NoteOfSegmentation/NoteOfMinCutSeg.cpp.i
+
+NoteOfSegmentation/NoteOfMinCutSeg.s: NoteOfSegmentation/NoteOfMinCutSeg.cpp.s
+
+.PHONY : NoteOfSegmentation/NoteOfMinCutSeg.s
+
+# target to generate assembly for a file
+NoteOfSegmentation/NoteOfMinCutSeg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfMinCutSeg.cpp.s
+.PHONY : NoteOfSegmentation/NoteOfMinCutSeg.cpp.s
+
 NoteOfSegmentation/NoteOfPlanSeg.o: NoteOfSegmentation/NoteOfPlanSeg.cpp.o
 
 .PHONY : NoteOfSegmentation/NoteOfPlanSeg.o
@@ -222,6 +249,60 @@ NoteOfSegmentation/NoteOfPlanSeg.s: NoteOfSegmentation/NoteOfPlanSeg.cpp.s
 NoteOfSegmentation/NoteOfPlanSeg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfPlanSeg.cpp.s
 .PHONY : NoteOfSegmentation/NoteOfPlanSeg.cpp.s
+
+NoteOfSegmentation/NoteOfRegionGrowing.o: NoteOfSegmentation/NoteOfRegionGrowing.cpp.o
+
+.PHONY : NoteOfSegmentation/NoteOfRegionGrowing.o
+
+# target to build an object file
+NoteOfSegmentation/NoteOfRegionGrowing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfRegionGrowing.cpp.o
+.PHONY : NoteOfSegmentation/NoteOfRegionGrowing.cpp.o
+
+NoteOfSegmentation/NoteOfRegionGrowing.i: NoteOfSegmentation/NoteOfRegionGrowing.cpp.i
+
+.PHONY : NoteOfSegmentation/NoteOfRegionGrowing.i
+
+# target to preprocess a source file
+NoteOfSegmentation/NoteOfRegionGrowing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfRegionGrowing.cpp.i
+.PHONY : NoteOfSegmentation/NoteOfRegionGrowing.cpp.i
+
+NoteOfSegmentation/NoteOfRegionGrowing.s: NoteOfSegmentation/NoteOfRegionGrowing.cpp.s
+
+.PHONY : NoteOfSegmentation/NoteOfRegionGrowing.s
+
+# target to generate assembly for a file
+NoteOfSegmentation/NoteOfRegionGrowing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfRegionGrowing.cpp.s
+.PHONY : NoteOfSegmentation/NoteOfRegionGrowing.cpp.s
+
+NoteOfSegmentation/NoteOfRegionGrowingRGB.o: NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.o
+
+.PHONY : NoteOfSegmentation/NoteOfRegionGrowingRGB.o
+
+# target to build an object file
+NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.o
+.PHONY : NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.o
+
+NoteOfSegmentation/NoteOfRegionGrowingRGB.i: NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.i
+
+.PHONY : NoteOfSegmentation/NoteOfRegionGrowingRGB.i
+
+# target to preprocess a source file
+NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.i
+.PHONY : NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.i
+
+NoteOfSegmentation/NoteOfRegionGrowingRGB.s: NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.s
+
+.PHONY : NoteOfSegmentation/NoteOfRegionGrowingRGB.s
+
+# target to generate assembly for a file
+NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.s
+.PHONY : NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.s
 
 main.o: main.cpp.o
 
@@ -265,9 +346,18 @@ help:
 	@echo "... NoteOfSegmentation/NoteOfCylinderSeg.o"
 	@echo "... NoteOfSegmentation/NoteOfCylinderSeg.i"
 	@echo "... NoteOfSegmentation/NoteOfCylinderSeg.s"
+	@echo "... NoteOfSegmentation/NoteOfMinCutSeg.o"
+	@echo "... NoteOfSegmentation/NoteOfMinCutSeg.i"
+	@echo "... NoteOfSegmentation/NoteOfMinCutSeg.s"
 	@echo "... NoteOfSegmentation/NoteOfPlanSeg.o"
 	@echo "... NoteOfSegmentation/NoteOfPlanSeg.i"
 	@echo "... NoteOfSegmentation/NoteOfPlanSeg.s"
+	@echo "... NoteOfSegmentation/NoteOfRegionGrowing.o"
+	@echo "... NoteOfSegmentation/NoteOfRegionGrowing.i"
+	@echo "... NoteOfSegmentation/NoteOfRegionGrowing.s"
+	@echo "... NoteOfSegmentation/NoteOfRegionGrowingRGB.o"
+	@echo "... NoteOfSegmentation/NoteOfRegionGrowingRGB.i"
+	@echo "... NoteOfSegmentation/NoteOfRegionGrowingRGB.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

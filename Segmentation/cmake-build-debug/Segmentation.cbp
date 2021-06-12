@@ -112,7 +112,16 @@
 		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfCylinderSeg.cpp">
 			<Option target="Segmentation"/>
 		</Unit>
+		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfMinCutSeg.cpp">
+			<Option target="Segmentation"/>
+		</Unit>
 		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfPlanSeg.cpp">
+			<Option target="Segmentation"/>
+		</Unit>
+		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfRegionGrowing.cpp">
+			<Option target="Segmentation"/>
+		</Unit>
+		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp">
 			<Option target="Segmentation"/>
 		</Unit>
 		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/main.cpp">
