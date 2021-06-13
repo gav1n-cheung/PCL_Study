@@ -109,13 +109,25 @@
 		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfClusterExtraction.cpp">
 			<Option target="Segmentation"/>
 		</Unit>
+		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfConditionalClustering.cpp">
+			<Option target="Segmentation"/>
+		</Unit>
 		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfCylinderSeg.cpp">
+			<Option target="Segmentation"/>
+		</Unit>
+		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfDonSementation.cpp">
 			<Option target="Segmentation"/>
 		</Unit>
 		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfMinCutSeg.cpp">
 			<Option target="Segmentation"/>
 		</Unit>
+		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp">
+			<Option target="Segmentation"/>
+		</Unit>
 		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfPlanSeg.cpp">
+			<Option target="Segmentation"/>
+		</Unit>
+		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp">
 			<Option target="Segmentation"/>
 		</Unit>
 		<Unit filename="/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfRegionGrowing.cpp">

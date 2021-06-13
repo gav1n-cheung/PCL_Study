@@ -169,6 +169,33 @@ NoteOfSegmentation/NoteOfClusterExtraction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfClusterExtraction.cpp.s
 .PHONY : NoteOfSegmentation/NoteOfClusterExtraction.cpp.s
 
+NoteOfSegmentation/NoteOfConditionalClustering.o: NoteOfSegmentation/NoteOfConditionalClustering.cpp.o
+
+.PHONY : NoteOfSegmentation/NoteOfConditionalClustering.o
+
+# target to build an object file
+NoteOfSegmentation/NoteOfConditionalClustering.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.o
+.PHONY : NoteOfSegmentation/NoteOfConditionalClustering.cpp.o
+
+NoteOfSegmentation/NoteOfConditionalClustering.i: NoteOfSegmentation/NoteOfConditionalClustering.cpp.i
+
+.PHONY : NoteOfSegmentation/NoteOfConditionalClustering.i
+
+# target to preprocess a source file
+NoteOfSegmentation/NoteOfConditionalClustering.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.i
+.PHONY : NoteOfSegmentation/NoteOfConditionalClustering.cpp.i
+
+NoteOfSegmentation/NoteOfConditionalClustering.s: NoteOfSegmentation/NoteOfConditionalClustering.cpp.s
+
+.PHONY : NoteOfSegmentation/NoteOfConditionalClustering.s
+
+# target to generate assembly for a file
+NoteOfSegmentation/NoteOfConditionalClustering.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.s
+.PHONY : NoteOfSegmentation/NoteOfConditionalClustering.cpp.s
+
 NoteOfSegmentation/NoteOfCylinderSeg.o: NoteOfSegmentation/NoteOfCylinderSeg.cpp.o
 
 .PHONY : NoteOfSegmentation/NoteOfCylinderSeg.o
@@ -195,6 +222,33 @@ NoteOfSegmentation/NoteOfCylinderSeg.s: NoteOfSegmentation/NoteOfCylinderSeg.cpp
 NoteOfSegmentation/NoteOfCylinderSeg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfCylinderSeg.cpp.s
 .PHONY : NoteOfSegmentation/NoteOfCylinderSeg.cpp.s
+
+NoteOfSegmentation/NoteOfDonSementation.o: NoteOfSegmentation/NoteOfDonSementation.cpp.o
+
+.PHONY : NoteOfSegmentation/NoteOfDonSementation.o
+
+# target to build an object file
+NoteOfSegmentation/NoteOfDonSementation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.o
+.PHONY : NoteOfSegmentation/NoteOfDonSementation.cpp.o
+
+NoteOfSegmentation/NoteOfDonSementation.i: NoteOfSegmentation/NoteOfDonSementation.cpp.i
+
+.PHONY : NoteOfSegmentation/NoteOfDonSementation.i
+
+# target to preprocess a source file
+NoteOfSegmentation/NoteOfDonSementation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.i
+.PHONY : NoteOfSegmentation/NoteOfDonSementation.cpp.i
+
+NoteOfSegmentation/NoteOfDonSementation.s: NoteOfSegmentation/NoteOfDonSementation.cpp.s
+
+.PHONY : NoteOfSegmentation/NoteOfDonSementation.s
+
+# target to generate assembly for a file
+NoteOfSegmentation/NoteOfDonSementation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.s
+.PHONY : NoteOfSegmentation/NoteOfDonSementation.cpp.s
 
 NoteOfSegmentation/NoteOfMinCutSeg.o: NoteOfSegmentation/NoteOfMinCutSeg.cpp.o
 
@@ -223,6 +277,33 @@ NoteOfSegmentation/NoteOfMinCutSeg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfMinCutSeg.cpp.s
 .PHONY : NoteOfSegmentation/NoteOfMinCutSeg.cpp.s
 
+NoteOfSegmentation/NoteOfModelOutlierRemoval.o: NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.o
+
+.PHONY : NoteOfSegmentation/NoteOfModelOutlierRemoval.o
+
+# target to build an object file
+NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.o
+.PHONY : NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.o
+
+NoteOfSegmentation/NoteOfModelOutlierRemoval.i: NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.i
+
+.PHONY : NoteOfSegmentation/NoteOfModelOutlierRemoval.i
+
+# target to preprocess a source file
+NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.i
+.PHONY : NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.i
+
+NoteOfSegmentation/NoteOfModelOutlierRemoval.s: NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.s
+
+.PHONY : NoteOfSegmentation/NoteOfModelOutlierRemoval.s
+
+# target to generate assembly for a file
+NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.s
+.PHONY : NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.s
+
 NoteOfSegmentation/NoteOfPlanSeg.o: NoteOfSegmentation/NoteOfPlanSeg.cpp.o
 
 .PHONY : NoteOfSegmentation/NoteOfPlanSeg.o
@@ -249,6 +330,33 @@ NoteOfSegmentation/NoteOfPlanSeg.s: NoteOfSegmentation/NoteOfPlanSeg.cpp.s
 NoteOfSegmentation/NoteOfPlanSeg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfPlanSeg.cpp.s
 .PHONY : NoteOfSegmentation/NoteOfPlanSeg.cpp.s
+
+NoteOfSegmentation/NoteOfProgressiveMorFiltering.o: NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.o
+
+.PHONY : NoteOfSegmentation/NoteOfProgressiveMorFiltering.o
+
+# target to build an object file
+NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.o
+.PHONY : NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.o
+
+NoteOfSegmentation/NoteOfProgressiveMorFiltering.i: NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.i
+
+.PHONY : NoteOfSegmentation/NoteOfProgressiveMorFiltering.i
+
+# target to preprocess a source file
+NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.i
+.PHONY : NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.i
+
+NoteOfSegmentation/NoteOfProgressiveMorFiltering.s: NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.s
+
+.PHONY : NoteOfSegmentation/NoteOfProgressiveMorFiltering.s
+
+# target to generate assembly for a file
+NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Segmentation.dir/build.make CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.s
+.PHONY : NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.s
 
 NoteOfSegmentation/NoteOfRegionGrowing.o: NoteOfSegmentation/NoteOfRegionGrowing.cpp.o
 
@@ -343,15 +451,27 @@ help:
 	@echo "... NoteOfSegmentation/NoteOfClusterExtraction.o"
 	@echo "... NoteOfSegmentation/NoteOfClusterExtraction.i"
 	@echo "... NoteOfSegmentation/NoteOfClusterExtraction.s"
+	@echo "... NoteOfSegmentation/NoteOfConditionalClustering.o"
+	@echo "... NoteOfSegmentation/NoteOfConditionalClustering.i"
+	@echo "... NoteOfSegmentation/NoteOfConditionalClustering.s"
 	@echo "... NoteOfSegmentation/NoteOfCylinderSeg.o"
 	@echo "... NoteOfSegmentation/NoteOfCylinderSeg.i"
 	@echo "... NoteOfSegmentation/NoteOfCylinderSeg.s"
+	@echo "... NoteOfSegmentation/NoteOfDonSementation.o"
+	@echo "... NoteOfSegmentation/NoteOfDonSementation.i"
+	@echo "... NoteOfSegmentation/NoteOfDonSementation.s"
 	@echo "... NoteOfSegmentation/NoteOfMinCutSeg.o"
 	@echo "... NoteOfSegmentation/NoteOfMinCutSeg.i"
 	@echo "... NoteOfSegmentation/NoteOfMinCutSeg.s"
+	@echo "... NoteOfSegmentation/NoteOfModelOutlierRemoval.o"
+	@echo "... NoteOfSegmentation/NoteOfModelOutlierRemoval.i"
+	@echo "... NoteOfSegmentation/NoteOfModelOutlierRemoval.s"
 	@echo "... NoteOfSegmentation/NoteOfPlanSeg.o"
 	@echo "... NoteOfSegmentation/NoteOfPlanSeg.i"
 	@echo "... NoteOfSegmentation/NoteOfPlanSeg.s"
+	@echo "... NoteOfSegmentation/NoteOfProgressiveMorFiltering.o"
+	@echo "... NoteOfSegmentation/NoteOfProgressiveMorFiltering.i"
+	@echo "... NoteOfSegmentation/NoteOfProgressiveMorFiltering.s"
 	@echo "... NoteOfSegmentation/NoteOfRegionGrowing.o"
 	@echo "... NoteOfSegmentation/NoteOfRegionGrowing.i"
 	@echo "... NoteOfSegmentation/NoteOfRegionGrowing.s"

@@ -167,6 +167,58 @@ CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfMinCutSeg.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfMinCutSeg.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfMinCutSeg.cpp -o CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfMinCutSeg.cpp.s
 
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.o: CMakeFiles/Segmentation.dir/flags.make
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.o: ../NoteOfSegmentation/NoteOfConditionalClustering.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.o -c /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfConditionalClustering.cpp
+
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfConditionalClustering.cpp > CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.i
+
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfConditionalClustering.cpp -o CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.s
+
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.o: CMakeFiles/Segmentation.dir/flags.make
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.o: ../NoteOfSegmentation/NoteOfDonSementation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.o -c /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfDonSementation.cpp
+
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfDonSementation.cpp > CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.i
+
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfDonSementation.cpp -o CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.s
+
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.o: CMakeFiles/Segmentation.dir/flags.make
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.o: ../NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.o -c /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp
+
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp > CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.i
+
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp -o CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.s
+
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.o: CMakeFiles/Segmentation.dir/flags.make
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.o: ../NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.o -c /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp
+
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp > CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.i
+
+CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp -o CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.s
+
 # Object files for target Segmentation
 Segmentation_OBJECTS = \
 "CMakeFiles/Segmentation.dir/main.cpp.o" \
@@ -175,7 +227,11 @@ Segmentation_OBJECTS = \
 "CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfClusterExtraction.cpp.o" \
 "CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfRegionGrowing.cpp.o" \
 "CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.o" \
-"CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfMinCutSeg.cpp.o"
+"CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfMinCutSeg.cpp.o" \
+"CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.o" \
+"CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.o" \
+"CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.o" \
+"CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.o"
 
 # External object files for target Segmentation
 Segmentation_EXTERNAL_OBJECTS =
@@ -187,6 +243,10 @@ Segmentation: CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfClusterExtrac
 Segmentation: CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfRegionGrowing.cpp.o
 Segmentation: CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp.o
 Segmentation: CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfMinCutSeg.cpp.o
+Segmentation: CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfConditionalClustering.cpp.o
+Segmentation: CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfDonSementation.cpp.o
+Segmentation: CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp.o
+Segmentation: CMakeFiles/Segmentation.dir/NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp.o
 Segmentation: CMakeFiles/Segmentation.dir/build.make
 Segmentation: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
 Segmentation: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
@@ -278,7 +338,7 @@ Segmentation: /usr/lib/x86_64-linux-gnu/libX11.so
 Segmentation: /usr/lib/x86_64-linux-gnu/libXext.so
 Segmentation: /usr/lib/x86_64-linux-gnu/libXt.so
 Segmentation: CMakeFiles/Segmentation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Segmentation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cheung/Desktop/Program/PCL/PCL_Study/Segmentation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Segmentation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Segmentation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

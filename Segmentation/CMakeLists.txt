@@ -3,7 +3,7 @@ project(Segmentation)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Segmentation main.cpp NoteOfSegmentation/NoteOfPlanSeg.cpp NoteOfSegmentation/NoteOfCylinderSeg.cpp NoteOfSegmentation/NoteOfClusterExtraction.cpp NoteOfSegmentation/NoteOfRegionGrowing.cpp NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp NoteOfSegmentation/NoteOfMinCutSeg.cpp)
+add_executable(Segmentation main.cpp NoteOfSegmentation/NoteOfPlanSeg.cpp NoteOfSegmentation/NoteOfCylinderSeg.cpp NoteOfSegmentation/NoteOfClusterExtraction.cpp NoteOfSegmentation/NoteOfRegionGrowing.cpp NoteOfSegmentation/NoteOfRegionGrowingRGB.cpp NoteOfSegmentation/NoteOfMinCutSeg.cpp NoteOfSegmentation/NoteOfConditionalClustering.cpp NoteOfSegmentation/NoteOfDonSementation.cpp NoteOfSegmentation/NoteOfProgressiveMorFiltering.cpp NoteOfSegmentation/NoteOfModelOutlierRemoval.cpp)
 find_package(PCL REQUIRED)
 include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
